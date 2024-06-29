@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".OffersActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hinhuudai1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="HSSV TẸT GA 45K SUỐT TUẦN TOÀN HỆ THÔNG \n HSSV TẸT GA 45K SUỐT TUẦN TOÀN HỆ THÔNG"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/hinhuudai2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="C'TEN - XEM PƠHIM CHỈ 45K TẠI MỐC 10H \n C'TEN - XEM PƠHIM CHỈ 45K TẠI MỐC 10H"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/hinhuudai3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="C'MONDAY - CINESSTAR HAPPY DAY \n ĐỒNG GIÁ 45K/VÉ 2D TOÀN HỆ THỐNG"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/hinhuudai4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="1TR LÀ QUÁ BÈO RỒI - NGÀY HỘI THÀNH VIÊN \n 1TR LÀ QUÁ BÈO RỒI - NGÀY HỘI THÀNH VIÊN"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/hinhuudai5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="90dp"
+                android:text="CINESTAR'S PURPLE DAY \n Diễn ra vào thứ 3 cuối cùng hằng tháng"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>
